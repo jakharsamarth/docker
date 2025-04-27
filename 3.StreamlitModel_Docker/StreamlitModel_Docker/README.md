@@ -1,11 +1,11 @@
-🚀 Deploying a Machine Learning Model with Docker and Streamlit
+## 🚀 Deploying a Machine Learning Model with Docker and Streamlit
 
 
 Welcome! In this project, we’ll train, containerize, and deploy a Machine Learning (ML) model using Docker and Streamlit. Docker ensures our ML app is portable, scalable, and easy to deploy anywhere — all while Streamlit provides a sleek, interactive web interface for real-time predictions. 🐳🤖
 
 By the end, you'll have a fully functional, containerized ML app ready to run on any system with Docker installed. Let's dive in! 🎯
 
-📖 Project Overview
+## 📖 Project Overview
 This project walks you through:
 
 Building a classification ML model (example: mushroom edibility prediction).
@@ -16,14 +16,14 @@ Dockerizing the entire project into a containerized application.
 
 Pushing the Docker image to DockerHub for easy sharing and deployment.
 
-📚 Resources
+## 📚 Resources
 Docker Documentation
 
 How to Use Docker for Machine Learning
 
 Machine Learning Basics
 
-📋 Prerequisites
+## 📋 Prerequisites
 Make sure the following are installed:
 
 Docker — For containerization.
@@ -46,7 +46,7 @@ Copy
 Edit
 Docker version 20.10.17, build 100c701
 Python 3.9.7
-🗂️ Project Structure
+## 🗂️ Project Structure
 bash
 Copy
 Edit
@@ -54,7 +54,7 @@ Edit
 ├── requirements.txt    # Python dependencies
 ├── Dockerfile          # Instructions for building Docker image
 └── mushrooms.csv       # Dataset used for training
-🐍 Building the ML Model and Streamlit App
+## 🐍 Building the ML Model and Streamlit App
 app.py includes:
 
 Data loading and preprocessing
@@ -69,7 +69,7 @@ bash
 Copy
 Edit
 pip freeze > requirements.txt
-📄 Dockerfile
+## 📄 Dockerfile
 Our Dockerfile tells Docker how to set up the environment:
 
 Dockerfile
